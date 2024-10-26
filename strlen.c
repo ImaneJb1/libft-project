@@ -6,15 +6,16 @@
 /*   By: ijoubair <ijoubair@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 11:08:11 by ijoubair          #+#    #+#             */
-/*   Updated: 2024/10/25 11:08:17 by ijoubair         ###   ########.fr       */
+/*   Updated: 2024/10/26 13:36:40 by ijoubair         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+
 size_t	ft_strlen(char	*str)
 {
-	size_t	len;
-	int	i;
+	size_t		len;
+	int			i;
 
 	i = 0;
 	len = 0;

@@ -6,11 +6,11 @@
 /*   By: ijoubair <ijoubair@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 11:08:36 by ijoubair          #+#    #+#             */
-/*   Updated: 2024/10/25 11:08:42 by ijoubair         ###   ########.fr       */
+/*   Updated: 2024/10/26 13:21:39 by ijoubair         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	isprint(int	c)
+int	isprint(int c)
 {
 	if ((c >= 0 && c <= 31) || (c == 127))
 		return (0);

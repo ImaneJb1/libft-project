@@ -6,15 +6,16 @@
 /*   By: ijoubair <ijoubair@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 11:11:08 by ijoubair          #+#    #+#             */
-/*   Updated: 2024/10/25 11:11:11 by ijoubair         ###   ########.fr       */
+/*   Updated: 2024/10/26 13:38:49 by ijoubair         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-void	*ft_memset(void	*b, int	c, size_t	len)
+
+void	*ft_memset(void *b, int c, size_t len)
 {
-	int	i;
-	unsigned char *str;
+	unsigned char	*str;
+	int				i;
 
 	str = b;
 	i = 0;
@@ -24,7 +25,7 @@ void	*ft_memset(void	*b, int	c, size_t	len)
 		i++;
 	}
 	str[i] = '\0';
-	return(str);
+	return (str);
 }
 /*#include <stdio.h>
 int	main()
